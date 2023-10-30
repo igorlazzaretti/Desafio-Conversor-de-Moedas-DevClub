@@ -76,8 +76,8 @@ function funcaoCliquei() {
         varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoDR)
         varNomeMoedaA.innerHTML = "Dólar"
         varNomeMoedaB.innerHTML = "Real"
-        varimagemUm.src = "/assets/midia/imgDollar.png"
-        varimagemDois.src = "/assets/midia/imgBrasil.png"   }
+        varimagemUm.src = "assets/midia/imgDollar.png"
+        varimagemDois.src = "assets/midia/imgBrasil.png"   }
        // do Dollar para Euro
     if (varSelectDe.value == "doleta" && varSelectPara.value == "euro"){
         varpum.innerHTML = new Intl.NumberFormat("en-US",{ style: "currency", currency:"USD"}).format(varValorDigitadonoInput.value)
