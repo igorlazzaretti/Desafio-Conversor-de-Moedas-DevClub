@@ -59,16 +59,16 @@ function funcaoCliquei() {
        varpdois.innerHTML = new Intl.NumberFormat("de-DE", {style:"currency", currency:"BIT",maximumFractionDigits:10, }).format(varValorDigitadonoInput.value / varbitcoinHoje)
        varNomeMoedaB.innerHTML = "Bitcoin"
        varNomeMoedaA.innerHTML = "Real"
-       varimagemUm.src = "/assets/midia/imgBrasil.png"
-       varimagemDois.src = "/assets/midia/imgBitcoin.png" }
+       varimagemUm.src = "./assets/midia/imgBrasil.png"
+       varimagemDois.src = "./assets/midia/imgBitcoin.png" }
        // Real para Real
     if (varSelectDe.value == "real" && varSelectPara.value == "real"){
        varpum.innerHTML = new Intl.NumberFormat("pt-BR",{ style: "currency", currency:"BRL"}).format(varValorDigitadonoInput.value)
        varpdois.innerHTML = " "
        varNomeMoedaB.innerHTML = "You are God damn right"
        varNomeMoedaA.innerHTML = "Real"
-       varimagemUm.src = "/assets/midia/imgBrasil.png"
-       varimagemDois.src = "/assets/midia/imgWalter.PNG" }   
+       varimagemUm.src = "./assets/midia/imgBrasil.png"
+       varimagemDois.src = "./assets/midia/imgWalter.PNG" }   
        // Do Dollar  para Real
     if (varSelectDe.value == "doleta" && varSelectPara.value == "real"){
         varpum.innerHTML = new Intl.NumberFormat("en-US",{ style: "currency", currency:"USD"}).format(varValorDigitadonoInput.value)
@@ -76,8 +76,8 @@ function funcaoCliquei() {
         varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoDR)
         varNomeMoedaA.innerHTML = "Dólar"
         varNomeMoedaB.innerHTML = "Real"
-        varimagemUm.src = "assets/midia/imgDollar.png"
-        varimagemDois.src = "assets/midia/imgBrasil.png"   }
+        varimagemUm.src = "../assets/midia/imgDollar.png"
+        varimagemDois.src = "../assets/midia/imgBrasil.png"   }
        // do Dollar para Euro
     if (varSelectDe.value == "doleta" && varSelectPara.value == "euro"){
         varpum.innerHTML = new Intl.NumberFormat("en-US",{ style: "currency", currency:"USD"}).format(varValorDigitadonoInput.value)
@@ -85,8 +85,8 @@ function funcaoCliquei() {
         varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoDE)
         varNomeMoedaA.innerHTML = "Dólar"
         varNomeMoedaB.innerHTML = "Euro"
-        varimagemUm.src = "./assets/midia/imgDollar.png"
-        varimagemDois.src = "./assets/midia/imgEuro.png"   }   
+        varimagemUm.src = "../assets/midia/imgDollar.png"
+        varimagemDois.src = "../assets/midia/imgEuro.png"   }   
        // do Dollar para Bictoin
     if (varSelectDe.value == "doleta" && varSelectPara.value == "bitcoin"){
         varpum.innerHTML = new Intl.NumberFormat("en-US",{ style: "currency", currency:"USD"}).format(varValorDigitadonoInput.value)
@@ -94,16 +94,16 @@ function funcaoCliquei() {
         varpdois.innerHTML = new Intl.NumberFormat("de-DE", {style:"currency", currency:"BIT"}).format(varResultadoDB)
         varNomeMoedaA.innerHTML = "Dólar"
         varNomeMoedaB.innerHTML = "Bitcoin"
-        varimagemUm.src = "/assets/midia/imgDollar.png"
-        varimagemDois.src = "/assets/midia/imgBitcoin.png"   }
+        varimagemUm.src = "./midia/imgDollar.png"
+        varimagemDois.src = "./midia/imgBitcoin.png"   }
        // do Dollar para Dollar
     if (varSelectDe.value == "doleta" && varSelectPara.value == "doleta"){
         varpum.innerHTML = new Intl.NumberFormat("pt-BR",{ style: "currency", currency:"BRL"}).format(varValorDigitadonoInput.value)
         varpdois.innerHTML = " "
         varNomeMoedaB.innerHTML = "You are God damn right"
         varNomeMoedaA.innerHTML = "Dólar"
-        varimagemUm.src = "/assets/midia/imgDollar.png"
-        varimagemDois.src = "/assets/midia/imgWalter.PNG"       } 
+        varimagemUm.src = "./assets/midia/imgDollar.png"
+        varimagemDois.src = "./assets/midia/imgWalter.PNG"       } 
 // do Euro para Dollar
     if (varSelectDe.value == "euro" && varSelectPara.value == "doleta"){
         varpum.innerHTML = new Intl.NumberFormat("de-DE",{ style: "currency", currency:"EUR"}).format(varValorDigitadonoInput.value)
@@ -111,16 +111,16 @@ function funcaoCliquei() {
         varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoED)
         varNomeMoedaA.innerHTML = "Euro"
         varNomeMoedaB.innerHTML = "Dólar"
-        varimagemUm.src = "/assets/midia/imgEuro.png"
-        varimagemDois.src = "/assets/midia/imgDollar.png"   }
+        varimagemUm.src = "./assets/midia/imgEuro.png"
+        varimagemDois.src = "./assets/midia/imgDollar.png"   }
 // do Euro para Euro
     if (varSelectDe.value == "euro" && varSelectPara.value == "euro"){
         varpum.innerHTML = new Intl.NumberFormat("de-DE",{ style: "currency", currency:"EUR"}).format(varValorDigitadonoInput.value)
         varpdois.innerHTML = " "
         varNomeMoedaB.innerHTML = "You are God damn right"
         varNomeMoedaA.innerHTML = "Euro"
-        varimagemUm.src = "/assets/midia/imgEuro.png"
-        varimagemDois.src = "/assets/midia/imgWalter.PNG"      } 
+        varimagemUm.src = "./assets/midia/imgEuro.png"
+        varimagemDois.src = "./assets/midia/imgWalter.PNG"      } 
 // do Euro para Bitcoin
     if (varSelectDe.value == "euro" && varSelectPara.value == "bitcoin"){
         varpum.innerHTML = new Intl.NumberFormat("de-DE",{ style: "currency", currency:"EUR"}).format(varValorDigitadonoInput.value)
@@ -128,8 +128,8 @@ function funcaoCliquei() {
     varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoED)
     varNomeMoedaA.innerHTML = "Euro"
     varNomeMoedaB.innerHTML = "Bitcoin"
-    varimagemUm.src = "/assets/midia/imgEuro.png"
-    varimagemDois.src = "/assets/midia/imgBitcoin.png"   }
+    varimagemUm.src = "./assets/midia/imgEuro.png"
+    varimagemDois.src = "./assets/midia/imgBitcoin.png"   }
 // do Euro para Real
 if (varSelectDe.value == "euro" && varSelectPara.value == "real"){
         varpum.innerHTML = new Intl.NumberFormat("de-DE",{ style: "currency", currency:"EUR"}).format(varValorDigitadonoInput.value)
@@ -137,8 +137,8 @@ if (varSelectDe.value == "euro" && varSelectPara.value == "real"){
     varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoED)
     varNomeMoedaA.innerHTML = "Euro"
     varNomeMoedaB.innerHTML = "Real"
-    varimagemUm.src = "/assets/midia/imgEuro.png"
-    varimagemDois.src = "/assets/midia/imgBrasil.png"   }
+    varimagemUm.src = "./assets/midia/imgEuro.png"
+    varimagemDois.src = "./assets/midia/imgBrasil.png"   }
 // do Bitcoin para Dollar
 if (varSelectDe.value == "bitcoin" && varSelectPara.value == "doleta"){
     varpum.innerHTML = new Intl.NumberFormat("de-DE",{ style: "currency", currency:"BIT"}).format(varValorDigitadonoInput.value)
@@ -146,8 +146,8 @@ if (varSelectDe.value == "bitcoin" && varSelectPara.value == "doleta"){
     varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoBD)
 varNomeMoedaA.innerHTML = "Bitcoin"
 varNomeMoedaB.innerHTML = "Dólar"
-varimagemUm.src = "/assets/midia/imgBitcoin.png"
-varimagemDois.src = "/assets/midia/imgDollar.png"   }
+varimagemUm.src = "./assets/midia/imgBitcoin.png"
+varimagemDois.src = "./assets/midia/imgDollar.png"   }
 // do Bitcoin para Euro
 if (varSelectDe.value == "bitcoin" && varSelectPara.value == "euro"){ 
     varpum.innerHTML = new Intl.NumberFormat("de-DE",{ style: "currency", currency:"BIT"}).format(varValorDigitadonoInput.value)
@@ -155,16 +155,16 @@ if (varSelectDe.value == "bitcoin" && varSelectPara.value == "euro"){
     varpdois.innerHTML = new Intl.NumberFormat("de-DE", {style:"currency", currency:"EUR"}).format(varResultadoBE)
 varNomeMoedaA.innerHTML = "Bitcoin"
 varNomeMoedaB.innerHTML = "Euro"
-varimagemUm.src = "/assets/midia/imgBitcoin.png"
-varimagemDois.src = "/assets/midia/imgEuro.png"   }
+varimagemUm.src = "./assets/midia/imgBitcoin.png"
+varimagemDois.src = "./assets/midia/imgEuro.png"   }
 // do Bitcoin para Bitcoin
 if (varSelectDe.value == "bitcoin" && varSelectPara.value == "bitcoin"){
     varpum.innerHTML = new Intl.NumberFormat("de-DE",{ style: "currency", currency:"BIT"}).format(varValorDigitadonoInput.value)
     varpdois.innerHTML = " "
     varNomeMoedaB.innerHTML = "You are God damn right"
     varNomeMoedaA.innerHTML = "Bitcoin"
-    varimagemUm.src = "/assets/midia/imgBitcoin.png"
-    varimagemDois.src = "/assets/midia/imgWalter.PNG"      } 
+    varimagemUm.src = "./assets/midia/imgBitcoin.png"
+    varimagemDois.src = "./assets/midia/imgWalter.PNG"      } 
 // do Bitcoin para Real
 if (varSelectDe.value == "bitcoin" && varSelectPara.value == "real"){
     varpum.innerHTML = new Intl.NumberFormat("de-DE",{ style: "currency", currency:"BIT"}).format(varValorDigitadonoInput.value)
@@ -172,7 +172,7 @@ if (varSelectDe.value == "bitcoin" && varSelectPara.value == "real"){
     varpdois.innerHTML = new Intl.NumberFormat("pt-BR", {style:"currency", currency:"BRL"}).format(varResultadoBR)
 varNomeMoedaA.innerHTML = "Bitcoin"
 varNomeMoedaB.innerHTML = "Real"
-varimagemUm.src = "/assets/midia/imgBitcoin.png"
-varimagemDois.src = "/assets/midia/imgBrasil.png"   }
+varimagemUm.src = "./assets/midia/imgBitcoin.png"
+varimagemDois.src = "./assets/midia/imgBrasil.png"   }
 
 }
