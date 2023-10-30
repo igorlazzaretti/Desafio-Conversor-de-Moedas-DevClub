@@ -42,7 +42,7 @@ function funcaoCliquei() {
         varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoRD)
         varNomeMoedaA.innerHTML = "Real"
         varNomeMoedaB.innerHTML = "Dólar"
-        varimagemUm.src = "/assets/midia/imgBrasil.png"
+        varimagemUm.src = "./assets/midia/imgBrasil.png"
         varimagemDois.src = "/assets/midia/imgDollar.png"   }
 
     if (varSelectDe.value == "real" && varSelectPara.value == "euro"){
