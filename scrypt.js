@@ -42,8 +42,8 @@ function funcaoCliquei() {
         varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoRD)
         varNomeMoedaA.innerHTML = "Real"
         varNomeMoedaB.innerHTML = "Dólar"
-        varimagemUm.src = "./assets/midia/imgBrasil.png"
-        varimagemDois.src = "/assets/midia/imgDollar.png"   }
+        varimagemUm.src = "assets/midia/imgBrasil.png"
+        varimagemDois.src = "assets/midia/imgDollar.png"   }
 
     if (varSelectDe.value == "real" && varSelectPara.value == "euro"){
         varpum.innerHTML = new Intl.NumberFormat("pt-BR",{ style: "currency", currency:"BRL"}).format(varValorDigitadonoInput.value)
