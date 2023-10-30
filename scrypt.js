@@ -149,7 +149,7 @@ varNomeMoedaB.innerHTML = "Dólar"
 varimagemUm.src = "/assets/midia/imgBitcoin.png"
 varimagemDois.src = "/assets/midia/imgDollar.png"   }
 // do Bitcoin para Euro
-if (varSelectDe.value == "bitcoin" && varSelectPara.value == "euro"){
+if (varSelectDe.value == "bitcoin" && varSelectPara.value == "euro"){ 
     varpum.innerHTML = new Intl.NumberFormat("de-DE",{ style: "currency", currency:"BIT"}).format(varValorDigitadonoInput.value)
     const varResultadoBE = varValorDigitadonoInput.value / varBitcoinEuroHoje
     varpdois.innerHTML = new Intl.NumberFormat("de-DE", {style:"currency", currency:"EUR"}).format(varResultadoBE)
