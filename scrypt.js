@@ -85,8 +85,8 @@ function funcaoCliquei() {
         varpdois.innerHTML = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD"}).format(varResultadoDE)
         varNomeMoedaA.innerHTML = "Dólar"
         varNomeMoedaB.innerHTML = "Euro"
-        varimagemUm.src = "/assets/midia/imgDollar.png"
-        varimagemDois.src = "/assets/midia/imgEuro.png"   }   
+        varimagemUm.src = "./assets/midia/imgDollar.png"
+        varimagemDois.src = "./assets/midia/imgEuro.png"   }   
        // do Dollar para Bictoin
     if (varSelectDe.value == "doleta" && varSelectPara.value == "bitcoin"){
         varpum.innerHTML = new Intl.NumberFormat("en-US",{ style: "currency", currency:"USD"}).format(varValorDigitadonoInput.value)
